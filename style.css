@@ -1,0 +1,100 @@
+
+.main-header {
+    text-align: center;
+}
+
+.wrapper-header {
+    text-align: center;
+}
+
+.rng-quote-wrapper {
+    min-height: 250px;
+    max-height: 250px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid midnightblue;
+    margin-bottom: 10px;
+}
+
+.rng-quote-wrapper p {
+    font-size: 18px;
+    margin: 10px;
+}
+
+.rng-quote-button {
+    min-width: 120px;
+    min-height: 30px;
+    margin: 10px;
+}
+
+#rng-title-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#rng-character-name {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+#rng-character-quote {
+    font-style: italic;
+}
+
+.title-quotes-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    border: 1px solid midnightblue;
+    min-height: 500px;
+    max-height: 500px;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.title-quotes-controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    column-gap: 10px;
+}
+
+.title-quotes-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-quotes-wrapper select {
+    min-width: 450px;
+    text-align: center;
+}
+
+.title-quotes-button {
+    min-width: 120px;
+    min-height: 30px;
+}
+
+.quote-character-name {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.quote-character-text {
+    font-style: italic;
+}
+
+.quote-container {
+    max-width: 800px;
+}
+
+body {
+    background: #9bb9d3;
+    font-family: Calibri, monospace;
+    padding-left: 10px;
+    padding-right: 10px;
+}

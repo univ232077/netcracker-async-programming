@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Anime Chan Wrapper</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+
+<h1 class="main-header">Anime Chan Wrapper</h1>
+<div class="rng-quote-wrapper">
+    <h2 class="wrapper-header">Random quote from random anime</h2>
+    <div class="quote-container">
+        <p id="rng-title-name">Title: </p>
+        <p id="rng-character-name">Character: </p>
+        <p id="rng-character-quote">Quote: </p>
+    </div>
+    <button class="rng-quote-button">
+        Update
+    </button>
+</div>
+<div class="title-quotes-wrapper">
+    <h2 class="wrapper-header">Popular quotes from selected anime</h2>
+    <div class="title-quotes-controls">
+        <template id="quote-template">
+            <div class="quote-container">
+                <p class="quote-character-name">Character: </p>
+                <p class="quote-character-text">Quote: </p>
+            </div>
+        </template>
+        <label id="title-selector-label" for="title-selector">
+            Select an anime:
+        </label>
+        <select name="select title..." id="title-selector"></select>
+        <button class="title-quotes-button">
+            Show
+        </button>
+    </div>
+    <div class="title-quotes-container">
+    </div>
+</div>
+</body>
+</html>
